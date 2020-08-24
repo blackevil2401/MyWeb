@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/test tự làm/pretest1.css">
+    <style>
+        input[type="submit"],input[type="reset"]{
+            font-size: 1.05rem;
+            border-radius: 50px;
+            padding: 2px 10px;
+            font-weight: bold;
+            width: 25%;
+            border: double medium grey;
+            background-color: lightgrey;
+            margin-left: 155px;
+            margin-right: -115px;
+        }
+        .formlogin{
+            margin-top: 10px;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            border: groove gray thin;
+            padding: 1rem;
+        }
+        td{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h2>Online Shopee</h2>
+    </div>
+<table id="menu">
+    <tr>
+        <th><a href="/test tự làm/pretest1.html">HOME</a></th>
+        <th>PRODUCTS</th>
+        <th>SHOPS</th>
+        <th><a href="">REGISTER</a></th>
+        <th>SIGNIN</th>
+    </tr>
+</table>
+<section id="formlogin">
+    <div class="member"><h2>Member Information</h2></div>
+    <form action="" method="POST">
+        <table id="register">
+            <tr>
+                <td>Full name</td>
+                <td class="cell1"><input type="text" name="txtUser" id="txtUser" placeholder="exam:Thien" required></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td class="cell1">
+                    <input type="radio" name="rdGender" id="rdMale" checked>Male
+                    <input type="radio" name="rdGender" id="rdFemale">Female
+                </td>
+            </tr>
+            <tr>
+                <td>Hobbies</td>
+                <td class="cell1">
+                    Shopping <input type="checkbox" name="ckShop" id="ckShop" checked>
+                    Eating out <input type="checkbox" name="ckEat" id="ckEat">
+                    Sporting <input type="checkbox" name="ckSport" id="ckSport">
+                </td>
+            </tr>
+            <tr>
+                <td>Day Of Birth</td>
+                <td class="cell1"><input type="date" name="txtDob" id="txtDob" value="dd/mm/yy"></td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td class="cell1"><input type="text" name="txtAddress" id="txtAddress" placeholder="exam:124 Halmington" required></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td class="cell1"><input type="email" name="txtMail" id="txtMail" placeholder="exam:black@gmail.com" required></td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td class="cell1"><input type="tel" name="txtPhone" id="txtPhone" placeholder="Số điện thoại"></td>
+            </tr>
+            <tr>
+                <td>City</td>
+                <td class="cell1">
+                    <select name="cbCity" id="City">
+                        <option>-- Select a City --</option>
+                        <option value="SG">Sài Gòn</option>
+                        <option value="HN">Hà Nội</option>
+                        <option value="HU">Huế</option>
+                        <option value="DN">Đà Nẵng</option>
+                        <option value="CN">Cần Thơ</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Comment</td>
+                <td class="cell1"><textarea name="txtCom" id="" cols="43" rows="6"></textarea></td>
+            </tr>
+            <tr class="button">
+                <td colspan="2">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>   
+            </tr>
+        </table>
+    </form>
+</section>
+</body>
+</html>

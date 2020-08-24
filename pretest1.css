@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#header{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%
+}
+#header h2{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    background: green;
+}
+
+#banner img{
+    margin-top: 15px;
+    width: 60%;
+    height: auto;
+}
+#menu{
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: solid black;
+    border-bottom: solid black;
+    margin: auto;
+    margin-top: 10px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: purple;
+    font-size: 20px;
+    text-shadow: black;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+.member h2{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background: green;
+    height: 60px;
+    padding-top: 8px;
+    font-weight: normal;
+}
+#formlogin{
+    border: double medium blue;
+    margin-top: 10px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cell1{
+    padding-left: 120px;  
+}
+input[type="radio"],input[type="checkbox"]{
+    width: 0.8em;
+}
+input[type="text"],input[type="tel"],input[type="email"]{
+    width: 20rem;
+    box-sizing: border-box;
+    text-align: left;
+    border: solid thin red;
+    color: blue;
+}
+footer{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
